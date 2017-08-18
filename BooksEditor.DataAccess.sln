@@ -11,6 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksEditor.DataAccess.Test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksEditor.DataAccess.Utils", "BooksEditor.DataAccess.Utils\BooksEditor.DataAccess.Utils.csproj", "{D9D9F30B-4C37-4AFE-8B37-764F61EA52C4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".circleci", ".circleci", "{3EA04029-B4DD-4855-9692-D7E4DA9ED5CA}"
+	ProjectSection(SolutionItems) = preProject
+		config.yml = config.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
