@@ -1,0 +1,6 @@
+﻿{
+  "ConnectionStrings": {
+    "Db": "Server=.\\sqlexpress;Database=books;Trusted_Connection=True;MultipleActiveResultSets=true;"
+  }
+}
+
