@@ -8,8 +8,6 @@ namespace BooksEditor.Domain.Entities
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
-        [Timestamp]
-        public byte[] TimeStamp { get; set; }
+        public int Id { get; set; }       
     }
 }

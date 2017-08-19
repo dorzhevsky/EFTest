@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BooksEditor.Domain.Entities
 {
-    [Table("Categories")]
+    [Table("categories")]
     public class Category: EntityBase
     {
         [DataType(DataType.Text)]
@@ -15,7 +15,7 @@ namespace BooksEditor.Domain.Entities
         [MaxLength(100)]
         public string CategoryDescription { get; set; }
 
-        [InverseProperty("Category")]
+        [InverseProperty("Category")]      
         public List<Product>  Products { get; set; }
 
         [NotMapped]

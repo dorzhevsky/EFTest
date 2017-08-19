@@ -14,7 +14,7 @@ namespace BooksEditor.DataAccess.Tests
             var config = configurationBuilder.Build();
 
             var builder = new DbContextOptionsBuilder<BooksContext>();
-            builder.UseSqlServer(config.GetConnectionString("Db"));
+            builder.UseNpgsql(config.GetConnectionString("Db"));
 
             var loggerFactory = new LoggerFactory();
             loggerFactory.AddProvider(new TraceLoggerProvider());

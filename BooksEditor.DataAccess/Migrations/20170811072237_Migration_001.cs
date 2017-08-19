@@ -10,7 +10,7 @@ namespace BooksEditor.DataAccess.Migrations
         {
             migrationBuilder.AddColumn<string>(
                 name: "CategoryDescription",
-                table: "Categories",
+                table: "categories",
                 maxLength: 100,
                 nullable: true);
         }
@@ -19,7 +19,7 @@ namespace BooksEditor.DataAccess.Migrations
         {
             migrationBuilder.DropColumn(
                 name: "CategoryDescription",
-                table: "Categories");
+                table: "categories");
         }
     }
 }
